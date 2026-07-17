@@ -2,6 +2,7 @@ package app.repositories;
 
 import app.entities.TicketEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface TicketEntityRepository extends JpaRepository<TicketEntity, Long> {
-}
+@Repository
+public interface TicketEntityRepository extends JpaRepository<TicketEntity, Long> {}
